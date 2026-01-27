@@ -1,0 +1,117 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background: #f6f6f6;
+    color: #222;
+}
+
+.hero {
+    background: #0a0a23;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+}
+
+.hero h1 { font-size: 2.5rem; }
+.subtitle { font-size: 1.2rem; opacity: .9; }
+.stack { font-size: .95rem; opacity: .75; }
+
+.cta-buttons { margin-top: 20px; }
+
+.btn-primary, .btn-outline, .btn {
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 5px;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: white;
+    color: #0a0a23;
+}
+
+.btn-outline {
+    border: 1px solid white;
+    color: white;
+}
+
+.navbar {
+    background: white;
+    padding: 12px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #0a0a23;
+    font-weight: 600;
+}
+
+.section {
+    padding: 60px 10%;
+}
+
+.section.light {
+    background: #ffffff;
+}
+
+h2 { font-size: 2rem; }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,.08);
+}
+
+.card.wide {
+    max-width: 900px;
+    margin: auto;
+}
+
+.date {
+    font-size: .85rem;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #777;
+}
+#sobre-mi .card {
+    text-align: justify;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px; /* ← separación entre proyectos */
+}
+.section {
+    padding: 40px 10%;
+}
+
+.section.light {
+    background: #f6f6f6;
+}
+
+.projects-intro {
+    max-width: 900px;
+    margin: 0 0 40px 0;
+    line-height: 1.7;
+    color: #444;
+}
+

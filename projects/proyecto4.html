@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto - Automatización de procesos administrativos </title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            background: #f6f6f6;
+            color: #222;
+        }
+
+        header {
+            background: #0a0a23;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 { font-size: 2.4rem; margin-bottom: 10px; }
+        header p { font-size: 1.1rem; opacity: .8; }
+
+        nav {
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 600;
+            color: #0a0a23;
+        }
+
+        section {
+            padding: 60px 10%;
+        }
+
+        h2 { font-size: 2rem; margin-bottom: 20px; }
+        .btn {
+            background: #0a0a23;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1rem;
+            margin-top: 30px;
+        }
+
+        .project-details {
+            display: grid;
+            gap: 20px;
+        }
+
+        .detail-box {text-align: justify;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #777;
+            font-size: .9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Proyecto 4: Automatización de procesos administrativos</h1>
+<h1> (Caso real)</h1>
+        <p>Diseño de un sistema para automatizar tareas administrativas repetitivas. Análisis del impacto en la eficiencia operativa y en la reducción del trabajo manual.</p>
+    </header>
+
+    <nav>
+    <a href="../index.html">Volver al Portafolio</a>
+</nav>
+
+
+    <section>
+       
+
+        <div class="project-details">
+            <!-- <h2>MOTIVACIÓN</h2> -->
+            <div class="detail-box">
+                <h3>Motivación</h3>
+                <p>Este proyecto inició cuando empecé a trabajar en la Sociedad Peruana de Neurología como auxiliar administrativo. Entre mis principales funciones identifiqué que muchas de estas tareas eran repetitivas y demandaban una cantidad considerable de tiempo, para lo cual la institución no contaba con herramientas adecuadas.
+
+Este proceso no solo me permitió desarrollar una herramienta funcional, sino que también evidenció la importancia de comprender a profundidad el funcionamiento interno de la institución antes de proponer cualquier solución tecnológica. Haber conocido de primera mano cada tarea, cada flujo y cada necesidad administrativa fue fundamental para diseñar un sistema realmente útil y adaptado a la realidad de la Sociedad Peruana de Neurología. Esta experiencia reafirmó el valor de entender el trabajo en su totalidad como primer paso para lograr una implementación efectiva y sostenible.
+
+ </p>
+            </div>
+<div class="project-details">
+            <!-- IMPORTANCIA -->
+            <div class="detail-box">
+                <h3>Importancia</h3>
+                <p>
+Este sistema básico, pero funcional, permitió agilizar varias de las tareas diarias de un puesto administrativo. Al evidenciar su eficacia, reconocí que esta solución podía escalarse y convertirse en una herramienta valiosa para automatizar gran parte del flujo administrativo de cualquier sociedad, especialmente en lo relacionado con el envío de certificados y la elaboración de documentos.
+
+ </p>
+            </div>
+            <!-- HERRAMIENTAS  -->
+            <div class="detail-box">
+                <h3>Herramientas utilizadas</h3>
+                <ul>
+
+                    <li><b>Python:</b> Utilizado para desarrollar y gestionar la lógica principal del sistema.</li>
+<li><b>Gmail API:</b> Implementada para permitir el envío seguro y automatizado de correos electrónicos.</li>
+<li><b>Excel:</b> Empleado para organizar, depurar y estructurar las bases de datos utilizadas en el proyecto.</li>
+<li><b>Git:</b> Utilizado como sistema de control de versiones para registrar cambios en el código, mantener un historial ordenado del desarrollo y permitir restaurar versiones anteriores cuando fue necesario.</li>
+<li><b>GitHub:</b> Plataforma empleada para almacenar el repositorio en la nube, facilitar el respaldo del proyecto y organizar de forma segura cada actualización del sistema.</li>
+
+               
+                </ul>
+            </div>
+
+            <!-- ALCANCE Y LIMITACIONES -->
+            <div class="detail-box">
+                <h3>Alcance y Limitaciones</h3>
+    <p>
+        Este proyecto se centra en automatizar las tareas administrativas repetitivas, principalmente relacionadas con la generación y envío de certificados, cartas y la organización de bases de datos. Incluye la automatización del flujo de correos electrónicos mediante Gmail API, la gestión de información en Excel y las inscripciones a los servicios que se ofrecen. No abarca otras áreas administrativas como pagos o gestión financiera.
+    </p>
+    <p>
+        El sistema depende de la estructura y correcta organización de las bases de datos en Excel; cualquier modificación significativa requiere ajustes en el código. Los envíos automáticos dependen de la autenticación con Gmail API, por lo que cambios en las credenciales pueden interrumpir temporalmente el funcionamiento. Además, existe una restricción diaria de 500 correos por Gmail.
+    </p>
+    <p>
+        La automatización no reemplaza por completo la supervisión humana, ya que ciertos casos especiales requieren intervención manual. La escalabilidad a otras sociedades o instituciones puede requerir adaptaciones específicas del sistema.
+    </p>
+            </div>
+
+            <!-- METODOLOGÍA -->
+            <div class="detail-box">
+                <h3>Metodología</h3>
+                <p><b>1. Identificación de procesos repetitivos:</b> Se analizó el trabajo diario para detectar tareas que consumen tiempo y son susceptibles de automatización.</p>
+
+<p><b>2. Levantamiento de información:</b> Se documentaron los flujos de trabajo, bases de datos utilizadas y formatos de documento. </p>
+
+<p><b>3. Desarrollo del sistema:</b> Se implementó el código en Python, integrando Gmail API y Excel para automatizar tareas específicas.</p>
+
+<p><b>4. Pruebas y ajustes:</b> Se realizaron pruebas con casos reales para garantizar la correcta ejecución de cada función y se corrigieron errores.</p>
+
+</div>
+
+            <a href="" class="btn" target="_blank">Archivos y recursos PENDIENTES</a>
+        </div>
+            
+    </section>
+
+    <footer>
+        © 2026 - Hannah Nicole Caparo Taylor - Proyecto de Análisis de Gasto Post-Pandemia
+    </footer>
+
+</body>
+</html>

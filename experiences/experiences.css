@@ -1,0 +1,98 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background: #f6f6f6;
+    color: #222;
+}
+
+.section {
+    padding: 60px 12%;
+}
+
+h1, h2, h3 {
+    color: #0a0a23;
+}
+
+.card {
+    background: white;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.meta {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.tools {
+    margin-top: 25px;
+    padding: 15px;
+    background: #f0f2f5;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+
+.back {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #0a0a23;
+    font-weight: 600;
+}
+
+.back:hover {
+    text-decoration: underline;
+}
+.actions {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.download-btn {
+    padding: 12px 22px;
+    background: #0a0a23;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    width: fit-content;
+}
+
+.download-btn:hover {
+    background: #1c1c3a;
+}
+
+.back {
+    margin-top: 6px;
+    font-weight: 600;
+    color: #0a0a23;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.back:hover {
+    text-decoration: underline;
+}
+.card p {
+    text-align: justify;
+    line-height: 1.7;
+    text-justify: inter-word;
+}
+
+

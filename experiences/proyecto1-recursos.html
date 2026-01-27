@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Recursos del Proyecto | Gasto de los hogares</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        /* Estilo para el botón de volver */
+        .back-button {
+            display: inline-block;
+            margin: 40px auto 20px auto;
+            padding: 12px 24px;
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        .back-button:hover {
+            background-color: #45a049;
+        }
+        .back-container {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<section class="section">
+    <div class="card wide">
+
+        <h1>Archivos y recursos del proyecto</h1>
+        <p class="intro">
+            En esta sección se presentan los archivos, datasets, códigos y visualizaciones utilizados
+            para el desarrollo del proyecto <b>Gasto de los hogares post-pandemia (Caso peruano)</b>.
+        </p>
+
+        <!-- DATA -->
+        <h3> Datos utilizados</h3>
+        <ul class="resources">
+            <li>
+                <b>INEI:</b> Encuestas de hogares y gasto familiar  
+                <a href="https://www.inei.gob.pe" target="_blank">Ver fuente</a>
+            </li>
+            <li>
+                <b>BCRP:</b> Series históricas de IPC  
+                <a href="https://www.bcrp.gob.pe" target="_blank">Ver fuente</a>
+            </li>
+        </ul>
+
+        <!-- CÓDIGO -->
+        <h3>Código y análisis</h3>
+        <ul class="resources">
+            <li>
+                <b>Python:</b> Limpieza de datos, análisis y gráficos  
+                <a href="https://github.com/tuusuario/proyecto-gasto-hogares" target="_blank">
+                    Ver repositorio
+                </a>
+            </li>
+        </ul>
+
+        <!-- POWER BI -->
+        <h3> Visualizaciones (Power BI)</h3>
+        <p class="note">
+            El dashboard fue desarrollado en Power BI Desktop.  
+            Debido a limitaciones de licencia, se presentan capturas representativas de las visualizaciones.
+        </p>
+
+        <div class="dashboard-gallery">
+            <img src="img/dashboard1.png" alt="Dashboard gasto por sector">
+            <p>Evolución del gasto por sector económico.</p>
+
+            <img src="img/dashboard2.png" alt="Dashboard comparación IPC">
+            <p>Comparación interanual del IPC por categoría.</p>
+        </div>
+
+        <!-- DESCARGAS -->
+        <h3> Archivos descargables</h3>
+        <ul class="resources">
+            <li>
+                <a href="files/resumen-analisis.pdf" download>
+                    Descargar resumen del análisis (PDF)
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</section>
+
+<!-- Botón de volver al portafolio al final -->
+<div class="back-container">
+    <a class="back-button" href="../index.html">← Volver al portafolio</a>
+</div>
+
+</body>
+</html>
