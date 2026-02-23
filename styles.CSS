@@ -115,3 +115,41 @@ footer {
     color: #444;
 }
 
+.certificados-detalle summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+.certificados-detalle summary::-webkit-details-marker {
+    display: none;
+}
+
+.certificados-lista {
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+.certificados-lista li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.certificados-lista a {
+    margin-left: 8px;
+    font-weight: 500;
+}
+#certificados .card p {
+    text-align: justify;
+    line-height: 1.6;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.card-doble {
+    grid-column: span 2;
+}
+
+
+
